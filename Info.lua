@@ -44,6 +44,7 @@ g_PluginInfo =
         {
           Alias = "tp",
           HelpString = "Teleports to a named warp",
+          Permission = "warps.warp.goto",
           Handler = GoToWarp,
           ParameterCombinations =
           {
@@ -57,6 +58,7 @@ g_PluginInfo =
         list =
         {
           HelpString = "Lists all the warps",
+          Permission = "warps.warp.list",
           Handler = ListWarps,
         },
 
