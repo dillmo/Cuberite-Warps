@@ -1,4 +1,5 @@
-function LoadWarps( Split )
+function LoadWarps()
+  local warps = cIniFile()
   warps:ReadFile( "warps.ini" )
-  return Split[3]
+  return warps
 end
