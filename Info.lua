@@ -3,6 +3,7 @@ g_PluginInfo =
   Name = "Warps",
   Version = "1",
   Date = "2015-06-17",
+  SourceLocation = "https://github.com/dillmo/Cuberite-Warps",
   Description = "This plugin allows you to easily use and manage warps.",
   Commands =
   {
