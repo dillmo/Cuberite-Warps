@@ -1,7 +1,7 @@
 function AddWarp( Split, Player )
   -- Load the warps.ini file and set the key name
   local warps = LoadWarps()
-  keyName = Split[3]
+  local keyName = Split[3]
 
   -- Add the warp
   if ( warps:HasValue( keyName, "x") ) then
@@ -25,7 +25,7 @@ end
 function RemoveWarp( Split, Player )
   -- Load the warps.ini file and set the key name
   local warps = LoadWarps()
-  keyName = Split[3]
+  local keyName = Split[3]
 
   if ( warps:HasValue( keyName, "x") ) then
     -- Remove the warp
@@ -46,7 +46,7 @@ end
 function GoToWarp( Split, Player )
   -- Load the warps.ini file and set the key name
   local warps = LoadWarps()
-  keyName = Split[3]
+  local keyName = Split[3]
 
   if ( warps:HasValue( keyName, "x") ) then
     -- Define the warp's coords
